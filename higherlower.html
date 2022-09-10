@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <title>Higher - Lower</title>
+  </head>
+  <body>
+    <div id="background">
+      <div id="page">
+        <div id="header">
+          <div id="logo">
+            <a href="higherlower.html"><img src="images/HigherLower.png" alt="LOGO" height="200" width="200"></a>
+          </div>
+
+    <div class="container">
+      <br>
+        <h1>The Higher Lower Game</h1>
+        <p>Guess a number between 1 and 30</p>
+        <div class="row">
+            <div class="col-lg-4 col-md-8">
+                <form>
+                    <div class="form-group">
+                        <label>Your guess:
+                        <input type="text" id="guess" class="form-control"> </label>
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="do_guess()">Guess</button>
+                </form>
+            </div>
+        </div>
+        <h2 id="message"></h2>
+    </div>
+    <script src="higherlower.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <br>
+    <br><br>
+    <footer id="By">Hasan Mohsin</footer>
+  </body>
+</html>
